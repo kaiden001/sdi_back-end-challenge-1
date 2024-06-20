@@ -36,7 +36,7 @@ function rentalCarCalculation($requiredSeats, $mediumSeatCapacity = 10, $largeCa
 }
 
 if ($argc < 2 || $argc > 4) {
-    echo "Usage: php script.php <requiredSeats> [mediumSeatCapacity] [largeCarCost]\n";
+    echo "Please input number (seat) :\n";
     exit(1);
 }
 
